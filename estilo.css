@@ -31,7 +31,7 @@ body {
 }
 
 .logopricipal{
-   max-width: 20%;
+   max-width: 200px;
    display: block;
    margin: auto;
 }
@@ -122,7 +122,7 @@ text-decoration: none;
 }
 
 .card{
-   margin-top: 10%;
+   margin-top: 5%;
    margin-left: 2%;
 
 }
