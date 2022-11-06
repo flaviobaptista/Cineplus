@@ -99,27 +99,6 @@ text-decoration: none;
 
 Área de imagens da pagia inicial para escolha dos filmes*/
 
-.Filmesgeral{
-   content: "";
-   clear: both;
-   display: table;
-}
-
-.circulo{
-   
-   width: 20%;
-   margin-left: 4%;
-   margin-top: 5%;
-   float: left;
-}
-
-.coringa{
-   
-   width: 21%;
-   margin-left: 4%;
-   margin-top: 5%;
-   float: left;
-}
 
 .card{
    margin-top: 5%;
