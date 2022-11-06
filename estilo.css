@@ -85,13 +85,9 @@ text-decoration: none;
    text-decoration: none;
 }
 
-.titfilm{
-   font-size: 40px;
-   color: #bbe6ff;
-   text-align: center;
-   margin-top: 2%;
+.dropdown{
+   margin-left: 10px;
 }
-
 
 
 /*==========================================================
@@ -100,19 +96,15 @@ text-decoration: none;
 Área de imagens da pagia inicial para escolha dos filmes*/
 
 
-.card{
-   margin-top: 5%;
-   margin-left: 2%;
-
-}
-
-.btn-info{
-   margin-left: 16px;
-   
-}
 .btn{
-   width: 330px;
+   width: 290px;
+   margin-top: 10px;
 }
 .card-title{
    text-align: center;
+}
+
+.carddiv{
+   margin-top: 50px;
+   
 }
