@@ -1,13 +1,11 @@
-
 /*configurações padrôes originais*/
-*{
+* {
    margin: 0%;
    padding: 0%;
    font-size: 100%;
    box-sizing: border-box;
-   border:none;
+   border: none;
    outline: none;
-
 }
 
 
@@ -16,76 +14,141 @@ Estilos geral padrão*/
 
 body {
 
-   background-image: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 52, 95));
+   background-image: linear-gradient(0deg, rgb(0, 0, 0), #00345f);
    font-family: Arial, Helvetica, sans-serif;
    background-repeat: no-repeat;
-   background-size: 100% 1300px;
-   
-   
-}
-.cabecalho{
-   background-image: linear-gradient(130deg, rgb(8, 206, 255), rgb(76, 0, 128), rgb(255, 123, 0));
-   box-shadow: 5px 10px 30px black;
-   padding: 20px;
-   
+   background-size: contain;
 }
 
-.logopricipal{
+.cabecalho {
+   background-image: linear-gradient(130deg, #ff7b00, #4c0080, #ff0000);
+   box-shadow: 5px 10px 30px black;
+   padding: 20px;
+}
+
+.logopricipal {
    max-width: 200px;
    display: block;
    margin: auto;
 }
 
-.logopricipalplayers{
-
+.logopricipalplayers {
    width: 20%;
    margin-left: 40%;
    text-align: center;
 }
 
-.circulofm{
+.nav-link{
+   color: #f7f7f7 !important;
+   font-size: 1.5rem !important;
+   border-bottom: solid 2px #ffffff00;
+   padding: 8px 20px !important;
+   transition: all 0.25s !important;
+}
+
+.bi-house-fill{
+   opacity: 0%;
+   transition: all 0.25s !important;
+   margin-left: 8px;
+}
+.bi-emoji-laughing-fill{
+   opacity: 0%;
+   transition: all 0.25s !important;
+   margin-left: 8px;
+}
+.bi-emoji-grimace-fill{
+   opacity: 0%;
+   transition: all 0.25s !important;
+   margin-left: 8px;
+}
+
+.nav-link:hover{
+   color: #00ffdd !important;
+   border-bottom: solid 2px #ffffff;
+
+   .bi-emoji-laughing-fill{
+      opacity: 100%;
+      color: #ffffff;
+   }
+   
+   .bi-emoji-grimace-fill{
+      opacity: 100%;
+      color: #ffffff;
+   }
+
+   .bi-house-fill{
+      opacity: 100%;
+      color: #ffffff;
+   }
+   
+
+}
+
+.active{
+   color: #00ffdd !important;
+   border-bottom: solid 2px #ffffff;
+
+   .bi-emoji-laughing-fill{
+      opacity: 100%;
+      color: #ffffff;
+   }
+   
+   .bi-emoji-grimace-fill{
+      opacity: 100%;
+      color: #ffffff;
+   }
+
+   .bi-house-fill{
+      opacity: 100%;
+      color: #ffffff;
+   }
+   
+
+}
+
+.divisor{
+   border: solid 2px black;
+}
+
+.circulofm {
    color: aliceblue;
    font-size: 20px;
    text-decoration: none;
    text-align: center;
-   
-   
 }
 
 
-.playvideo{
+.playvideo {
    width: 50%;
    margin: auto;
    display: block;
    margin-top: 2%;
-
 }
 
-.botoes{
+.botoes {
    position: absolute;
    top: 50%;
    left: 42%;
    margin: -25px 0 0 -25px;
-  
 }
 
-.b1{
-font-size: 25px;
-padding: 10px 62px;
-background: -webkit-linear-gradient(left,#9f78fa, #81d0fd );
-color: rgb(3, 3, 3);
-border-radius: 50px 20px;
-text-decoration: none;
-
+.b1 {
+   font-size: 25px;
+   padding: 10px 62px;
+   background: -webkit-linear-gradient(left, #9f78fa, #81d0fd);
+   color: rgb(3, 3, 3);
+   border-radius: 50px 20px;
+   text-decoration: none;
+   
 }
 
-.b1:hover{
-   background: -webkit-linear-gradient(left,#f7f7f7, #ffffff );
+.b1:hover {
+   background: -webkit-linear-gradient(left, #f7f7f7, #ffffff);
    color: #7940ff;
    text-decoration: none;
 }
 
-.dropdown{
+.dropdown {
    margin-left: 10px;
 }
 
@@ -96,15 +159,21 @@ text-decoration: none;
 Área de imagens da pagia inicial para escolha dos filmes*/
 
 
-.btn{
+.btn {
    width: 290px;
    margin-top: 10px;
+   transition: all 0.25s !important;
 }
-.card-title{
+
+.card-title {
    text-align: center;
 }
 
-.carddiv{
+.carddiv {
    margin-top: 50px;
-   
+
+}
+
+.card-img-top {
+   height: 410px;
 }
